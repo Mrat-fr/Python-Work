@@ -9,12 +9,11 @@ choice2 = 0#cearted this so the while loop would work
 #This section will take the like ingredients that has been inputted then store it in the list
 print ("----      CUISINES YOU LIKE       ----")#The title, just visual
 print ("----    select '/' to move on     ----")#tells the person to input / to move on
-print ("----             LIKE             ----")#title to them to input what they like
-
+print ("----       INGREDIENTS LIKE       ----")#title to them to input what they like
 while choice != "/":#this is going to loop to let them put as many like ingredients until they dont want no more, then press 1 to move on
   choice = input(">>>")# asks the user to input what they want
   likelist.append(choice)# adds what the user inputs into the likelist
-print ("----            DISLIKE           ----")#title to them to input what they dislike
+print ("----     INGREDIENTS DISLIKE      ----")#title to them to input what they dislike
 while choice2 != "/":#this is going to loop to let them put as many dislike ingredients until they don't want no more, then press 1 to move on
  choice2 = input(">>>")# asks the user to input what they don't want
  dlikelist.append(choice2)# adds what the user inputs into the dlikelist
